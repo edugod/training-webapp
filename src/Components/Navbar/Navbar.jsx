@@ -12,10 +12,10 @@ const Navbar = () => {
                     </div>
                 </a>
                 <ul className="nav-list">
-                    <li><a href="#courses"></a></li>
-                    <li><a href="#modalities"></a></li>
-                    <li><a href="#about-us"></a></li>
-                    <li><a href="#contact-us"></a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#modalities">Modalidades</a></li>
+                    <li><a href="#about-us">Sobre Nós</a></li>
+                    <li><a href="#contact-us">Contato</a></li>
                     <li id="link-nav-button"><a href="https://aulademo" className="nav-button-link">
                         <button id='nav-button'>Conheça na prática</button></a></li>
                 </ul>
