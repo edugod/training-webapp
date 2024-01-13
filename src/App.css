@@ -21,7 +21,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 * {
@@ -32,7 +32,7 @@ html {
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
+  /*  overflow-x: hidden; */
   cursor: default;
   height: 100%;
   position: relative;
@@ -263,7 +263,7 @@ main {
 }
 
 .background-about-us {
-  background-image: url(./images/background-about-us.svg);
+  background-image: url(./background-about-us-1440.svg); 
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
@@ -1022,7 +1022,7 @@ footer {
 .title-method,
 .text-method,
 .image-method {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 @media (max-width: 2560px) {
@@ -1041,7 +1041,7 @@ footer {
     width: 12rem;
   }
   .background-about-us {
-    background-image: url(./images/background-about-us-1440.svg);
+    background-image: url(./background-about-us-1440.svg);
     height: 80rem;
   }
   .image-about img {
@@ -1080,7 +1080,7 @@ footer {
   }
 
   .background-about-us {
-    background-image: url(./images/background-about-us-1024.svg);
+    background-image: url(../public/background-about-us-1440.svg);
     height: 80rem;
   }
   .text-know-more {
@@ -1165,7 +1165,7 @@ footer {
 
   body {
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .nav-list {

@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
-import AboutUs from '../AboutUs/AboutUs'
+
 
 const Home = () => {
 	return (
-		<main>
+		<>
 			<section id='home'>
 				<div className='background-first-fold'></div>
 				<div className='first-fold-container'>
@@ -17,8 +17,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<AboutUs />
-		</main>
+		</>
 	)
 }
 
